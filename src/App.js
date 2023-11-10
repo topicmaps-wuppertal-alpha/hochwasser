@@ -104,7 +104,7 @@ function App() {
       token="floodingAndRainhazardSyncWupp"
     >
       <TopicMapContextProvider
-        appKey={"cismetRainhazardMap.Wuppertal"}
+        appKey={"cismetFloodingdMap.Wuppertal"}
         referenceSystem={MappingConstants.crs3857}
         referenceSystemDefinition={MappingConstants.proj4crs3857def}
         infoBoxPixelWidth={370}
