@@ -1542,10 +1542,10 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.4"
 
-"@cismet-dev/react-cismap-rainhazardmaps@^1.13.1":
-  version "1.13.1"
-  resolved "https://npm.pkg.github.com/download/@cismet-dev/react-cismap-rainhazardmaps/1.13.1/050be43aad8a441a8380715e3662dde202612dd2#050be43aad8a441a8380715e3662dde202612dd2"
-  integrity sha512-kvK3zrNR+3KhUNJX57sa6QY4NqbkF7AbhxuEYuFg8TVUVpAQn/eXXsfHwbpjpIdAtTOZH0SJBRqewZ9l/kcRdw==
+"@cismet-dev/react-cismap-rainhazardmaps@^1.13.3":
+  version "1.13.3"
+  resolved "https://npm.pkg.github.com/download/@cismet-dev/react-cismap-rainhazardmaps/1.13.3/1898602da598433bbc2fe31be2764bcdba8678d9#1898602da598433bbc2fe31be2764bcdba8678d9"
+  integrity sha512-5D2hSLhPMTpujhQILhIeZTaW/brPWtKDJfqkMyGCZL4xL0HULR08bsirt04stOIJPeO/XpR5cibDc0/lFNo+qA==
   dependencies:
     "@testing-library/jest-dom" "^5.14.1"
     "@testing-library/react" "^12.0.0"
@@ -1559,7 +1559,7 @@
     proj4leaflet "^1.0.2"
     query-string "^7.1.0"
     react "^16.11"
-    react-cismap "^1.16.0"
+    react-cismap "^1.16.3"
     react-dom "^16.11"
     react-leaflet "^1.6.4"
     react-scripts "5.0.0"
@@ -11793,10 +11793,10 @@ react-cismap@^1.14.5:
     use-immer "^0.4.2"
     watchjs "^0.0.0"
 
-react-cismap@^1.16.0:
-  version "1.16.0"
-  resolved "https://registry.npmjs.org/react-cismap/-/react-cismap-1.16.0.tgz#68d7f4a142f2c8297cede240ea1a7049eda9c3fe"
-  integrity sha512-itzE3DyowFgfW3ETFzljm0ytb8y3f7/ymk8pxZXbCOJmNeT8nnRwihupjS8b3ge7+p4Ty/+4B7Xjj5VxhC57TQ==
+react-cismap@^1.16.3:
+  version "1.16.3"
+  resolved "https://registry.npmjs.org/react-cismap/-/react-cismap-1.16.3.tgz#afdfee395746d088965a15a0d5137bbb9734242e"
+  integrity sha512-RGVoowCsvMAlMglB1buF3JiaPCz8anl8eLl+L7Wp5u2LpzPY5KIz8NoizBCXWx5Y+Mad5oF5vgDfU/nD9KaDpA==
   dependencies:
     "@fortawesome/fontawesome-free" "^5.12.0"
     "@fortawesome/fontawesome-svg-core" "^1.2.26"
