@@ -127,8 +127,8 @@ function App() {
           config={config.config}
           homeZoom={18}
           homeCenter={[51.27202324060668, 7.20162372978018]}
-          modeSwitcherTitle="TopicMap Hochwasser"
-          documentTitle="TopicMap Hochwasser Wuppertal"
+          modeSwitcherTitle="Hochwassergefahrenkarte Wuppertal"
+          documentTitle="Hochwassergefahrenkarte Wuppertal"
           gazData={gazData}
         >
           <CrossTabCommunicationControl />
