@@ -12,7 +12,7 @@ import CrossTabCommunicationControl from "react-cismap/CrossTabCommunicationCont
 import CrossTabCommunicationContextProvider from "react-cismap/contexts/CrossTabCommunicationContextProvider";
 
 import config from "./config";
-import { getCollabedHelpComponentConfig } from "@cismet-collab/flooding-wupp-texts";
+// import { getCollabedHelpComponentConfig } from "@cismet-collab/flooding-wupp-texts";
 import { getApplicationVersion } from "./version";
 import NotesDisplay from "./NotesDisplay";
 import { EnviroMetricMapContext } from "@cismet-dev/react-cismap-rainhazardmaps/EnviroMetricMapContextProvider";
@@ -91,16 +91,17 @@ function App() {
         infoBoxPixelWidth={370}
       >
         <EnviroMetricMap
-          appMenu={
-            <GenericModalApplicationMenu
-              {...getCollabedHelpComponentConfig({
-                version,
-                reactCismapRHMVersion,
+          appMenu={<div />}
+          // appMenu={
+          //   <GenericModalApplicationMenu
+          //     {...getCollabedHelpComponentConfig({
+          //       version,
+          //       reactCismapRHMVersion,
 
-                email,
-              })}
-            />
-          }
+          //       email,
+          //     })}
+          //   />
+          // }
           applicationMenuTooltipString="Anleitung | Hintergrund"
           initialState={config.initialState}
           emailaddress="hochwasser@stadt.wuppertal.de"
