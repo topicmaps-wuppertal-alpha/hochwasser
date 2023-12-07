@@ -8,6 +8,7 @@ const config = {
   animationSwitch: false,
   toggleSwitch: true,
   toggleTitle: "HW-Schutz",
+  simulationTitle: "Hochwasser",
   toggleEnabledText: "an",
   toggleDisabledText: "aus",
   possibleModes: [starkregenConstants.SHOW_HEIGHTS],

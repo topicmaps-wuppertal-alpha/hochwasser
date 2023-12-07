@@ -1589,10 +1589,10 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.4"
 
-"@cismet-dev/react-cismap-rainhazardmaps@^1.14.5":
-  version "1.14.5"
-  resolved "https://npm.pkg.github.com/download/@cismet-dev/react-cismap-rainhazardmaps/1.14.5/3d3c9cb45af2806fe5b3f89d4e485c4ecfde8245#3d3c9cb45af2806fe5b3f89d4e485c4ecfde8245"
-  integrity sha512-naMcof6A5J399lT0rlBKl1VhP/LdXV5IK52izs41TYu7p7l34Z7ZZIiVKZwvp56zfMcOZoS6ziNQf7+5Blgcag==
+"@cismet-dev/react-cismap-rainhazardmaps@^1.14.6":
+  version "1.14.6"
+  resolved "https://npm.pkg.github.com/download/@cismet-dev/react-cismap-rainhazardmaps/1.14.6/d49ce31ad1bb31864fcf0595887576d53db17d66#d49ce31ad1bb31864fcf0595887576d53db17d66"
+  integrity sha512-XevICjZT+leS4FvrHILw0G8Z8WAB9Q/Lag7O9HTni+5J47drGetYwuQh9mXLrLQ+CT8EvWsQieo8a93BccvRSw==
   dependencies:
     "@testing-library/jest-dom" "^5.14.1"
     "@testing-library/react" "^12.0.0"
@@ -10594,7 +10594,7 @@ polygon-clipping@^0.15.3:
   dependencies:
     splaytree "^3.1.0"
 
-polylabel@mapbox/polylabel:
+"polylabel@github:mapbox/polylabel", polylabel@mapbox/polylabel:
   version "1.1.0"
   resolved "https://codeload.github.com/mapbox/polylabel/tar.gz/07c112091b4c9ffeb412af33c575133168893b4a"
   dependencies:
