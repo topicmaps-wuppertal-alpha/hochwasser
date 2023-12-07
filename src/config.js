@@ -73,20 +73,20 @@ const config = {
   backgrounds: [
     {
       layerkey: "hillshade|bplan_abkg@30|rvrGrundriss@20",
-      // src: "/starkregen/images/rain-hazard-map-bg/topo.png",
-      src: "/images/rain-hazard-map-bg/topo.png",
+      src: "/hochwasser/images/rain-hazard-map-bg/topo.png",
+      // src: "/images/rain-hazard-map-bg/topo.png",
       title: "Top. Karte",
     },
     {
       layerkey: "rvrGrundriss@100|trueOrtho2022@75|rvrSchriftNT@100",
-      // src: "/starkregen/images/rain-hazard-map-bg/ortho.png",
-      src: "/images/rain-hazard-map-bg/ortho.png",
+      src: "/hochwasser/images/rain-hazard-map-bg/ortho.png",
+      // src: "/images/rain-hazard-map-bg/ortho.png",
       title: "Luftbildkarte",
     },
     {
       layerkey: "wupp-plan-live@40",
-      // src: "/starkregen/images/rain-hazard-map-bg/citymap.png",
-      src: "/images/rain-hazard-map-bg/citymap.png",
+      src: "/hochwasser/images/rain-hazard-map-bg/citymap.png",
+      //src: "/images/rain-hazard-map-bg/citymap.png",
       title: "Stadtplan",
     },
   ],
