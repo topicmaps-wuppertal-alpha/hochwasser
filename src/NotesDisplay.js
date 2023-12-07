@@ -40,12 +40,15 @@ export default function NotesDisplay() {
           }
         }}
         hoverer={(feature) => {
-          return feature.properties.kategorie + "<br/>Klicken Sie für mehr Informationen";
+          return (
+            feature.properties.kategorie +
+            "<br/>Klicken Sie für mehr Informationen"
+          );
         }}
         key={hinweisData.length + "damm"}
         style={(feature) => {
           return {
-            fillColor: "#525C55",
+            fillColor: "#AAFF00",
             fillOpacity: 0.7,
             weight: 0,
           };
@@ -72,21 +75,23 @@ const hinweisData = [
       beschreibung: (
         <div>
           <div>
-            ie Abwasserreinigung am Standort Buchenhofen blickt auf eine über 100-jährige Geschichte
-            zurück. Schon seit dem Jahre 1906 wurde hier in der Kläranlage Elberfeld-Barmen das
-            anfallende Abwasser der Stadt Wuppertal gereinigt. Nach unserer Verbandsgründung im
-            Jahre 1930 übernahmen wir die Abwasserreinigung. Es folgte der Ausbau der zur
-            mechanischen Reinigung dienenden Absetzbecken und die Errichtung von zwei
-            Erdfaulbehältern in den Jahren 1930 - 1939.
+            ie Abwasserreinigung am Standort Buchenhofen blickt auf eine über
+            100-jährige Geschichte zurück. Schon seit dem Jahre 1906 wurde hier
+            in der Kläranlage Elberfeld-Barmen das anfallende Abwasser der Stadt
+            Wuppertal gereinigt. Nach unserer Verbandsgründung im Jahre 1930
+            übernahmen wir die Abwasserreinigung. Es folgte der Ausbau der zur
+            mechanischen Reinigung dienenden Absetzbecken und die Errichtung von
+            zwei Erdfaulbehältern in den Jahren 1930 - 1939.
           </div>
           <img
             width="100%"
             src="https://www.wupperverband.de/internet/mediendb.nsf/gfx/med_HVAL-CFPEGJ_3A60CE/$file/Kl%C3%A4ranlage_Buchenhofen_2022_Luftbild_Peter_Sondermann_0006_2089-1175x10-85_640_85.jpg"
           />
           <div>
-            Wir behandeln am Kläranlagenstandort Buchenhofen das zufließende Abwasser aus dem
-            Stadtgbiet Wuppertal, ausgenommen Rondsdorf und Cronenberg, sowie das an der Stadtgrenze
-            zu Langerfeld auf Schwelmer Stadtgebiet anfallende Abwasser.
+            Wir behandeln am Kläranlagenstandort Buchenhofen das zufließende
+            Abwasser aus dem Stadtgbiet Wuppertal, ausgenommen Rondsdorf und
+            Cronenberg, sowie das an der Stadtgrenze zu Langerfeld auf Schwelmer
+            Stadtgebiet anfallende Abwasser.
           </div>
         </div>
       ),
