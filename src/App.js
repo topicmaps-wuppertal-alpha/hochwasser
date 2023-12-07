@@ -157,7 +157,7 @@ const StateAwareChildren = () => {
             version="1.1.1"
             transparent="true"
             format="image/png"
-            tiled="true"
+            tiled={true}
             styles={conf.simulations[state.selectedSimulation].depthStyle}
             maxZoom={22}
             opacity={0.8}
