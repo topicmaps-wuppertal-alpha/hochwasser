@@ -109,8 +109,8 @@ function App() {
           homeZoom={18}
           contactButtonEnabled={false}
           homeCenter={[51.27202324060668, 7.20162372978018]}
-          modeSwitcherTitle="Hochwasserkarte Wuppertal"
-          documentTitle="Hochwasserkarte Wuppertal"
+          modeSwitcherTitle="Hochwassergefahrenkarte Wuppertal"
+          documentTitle="Hochwassergefahrenkarte Wuppertal"
           gazData={gazData}
           gazetteerSearchPlaceholder="Stadtteil | Adresse | POI | GEP"
           animationEnabled={false}
@@ -125,45 +125,46 @@ function App() {
           }}
         >
           <CrossTabCommunicationControl hideWhenNoSibblingIsPresent={true} />
-          <NotesDisplay />
-          <SituationOhneHochwasserschutz />
+          <StateAwareChildren />
         </EnviroMetricMap>
       </TopicMapContextProvider>
     </CrossTabCommunicationContextProvider>
   );
 }
 
-const SituationOhneHochwasserschutz = () => {
+const StateAwareChildren = () => {
   const { controlState } = useContext(EnviroMetricMapContext);
-  const mapConfig = config.config;
+  const conf = config.config;
   const state = controlState;
 
-  if (
-    controlState.customInfoBoxToggleState === false &&
-    mapConfig.simulations[state.selectedSimulation].gefaehrdungsLayer
-  ) {
-    return (
-      <StyledWMSTileLayer
-        key={
-          "rainHazardMap.depthLayer" +
-          mapConfig.simulations[state.selectedSimulation].gefaehrdungsLayer +
-          "." +
-          state.selectedBackground
-        }
-        url={mapConfig.modelWMS}
-        layers={
-          mapConfig.simulations[state.selectedSimulation].gefaehrdungsLayer
-        }
-        version="1.1.1"
-        transparent="true"
-        format="image/png"
-        tiled="true"
-        styles={mapConfig.simulations[state.selectedSimulation].depthStyle}
-        maxZoom={22}
-        opacity={0.8}
-      />
-    );
-  }
-  return null;
+  return (
+    <>
+      {controlState.customInfoBoxToggleState &&
+        state.selectedSimulation !== 2 && <NotesDisplay />}
+      {controlState.customInfoBoxToggleState === false &&
+        conf.simulations[state.selectedSimulation].gefaehrdungsLayer && (
+          <StyledWMSTileLayer
+            key={
+              "rainHazardMap.depthLayer" +
+              conf.simulations[state.selectedSimulation].gefaehrdungsLayer +
+              "." +
+              state.selectedBackground
+            }
+            url={conf.modelWMS}
+            layers={
+              conf.simulations[state.selectedSimulation].gefaehrdungsLayer
+            }
+            version="1.1.1"
+            transparent="true"
+            format="image/png"
+            tiled="true"
+            styles={conf.simulations[state.selectedSimulation].depthStyle}
+            maxZoom={22}
+            opacity={0.8}
+          />
+        )}
+    </>
+  );
 };
+
 export default App;
