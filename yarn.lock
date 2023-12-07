@@ -1589,10 +1589,10 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.4"
 
-"@cismet-dev/react-cismap-rainhazardmaps@^1.14.2":
-  version "1.14.2"
-  resolved "https://npm.pkg.github.com/download/@cismet-dev/react-cismap-rainhazardmaps/1.14.2/2ef909bf8d34de22061a07ddd57fab1b626e1dda#2ef909bf8d34de22061a07ddd57fab1b626e1dda"
-  integrity sha512-tQ8S0pMlkQT0LQgjWXjykXZcqdb49PAqN4/4qS2QfKySn1HA0yENbbCCkpqFJv4c5eVYhAsvavANAJryaZ9VdQ==
+"@cismet-dev/react-cismap-rainhazardmaps@^1.14.4":
+  version "1.14.4"
+  resolved "https://npm.pkg.github.com/download/@cismet-dev/react-cismap-rainhazardmaps/1.14.4/066b2f61fe0a58c2662b263d8b8dc190424d7c12#066b2f61fe0a58c2662b263d8b8dc190424d7c12"
+  integrity sha512-Pf9HFM3am94KhaG9e5VzTox0kg9vXBhJiNoape1RKBMHUJA1k4H7m54TZpY4EoYuIw/TklnLG4wjlSk84EO9jA==
   dependencies:
     "@testing-library/jest-dom" "^5.14.1"
     "@testing-library/react" "^12.0.0"
@@ -1606,7 +1606,7 @@
     proj4leaflet "^1.0.2"
     query-string "^7.1.0"
     react "^16.11"
-    react-cismap "^1.17.7"
+    react-cismap "^1.17.8"
     react-dom "^16.11"
     react-leaflet "^1.6.4"
     react-scripts "5.0.0"
@@ -2405,10 +2405,17 @@
   resolved "https://registry.npmjs.org/@restart/context/-/context-2.1.4.tgz#a99d87c299a34c28bd85bb489cb07bfd23149c02"
   integrity sha512-INJYZQJP7g+IoDUh/475NlGiTeMfwTXUEr3tmRneckHIxNolGOW9CTq83S8cxq0CgJwwcMzMJFchxvlwe7Rk8Q==
 
-"@restart/hooks@^0.4.0", "@restart/hooks@^0.4.7":
+"@restart/hooks@^0.4.0":
   version "0.4.11"
   resolved "https://registry.npmjs.org/@restart/hooks/-/hooks-0.4.11.tgz#8876ccce1d4ad2a4b793a31689d63df36cf56088"
   integrity sha512-Ft/ncTULZN6ldGHiF/k5qt72O8JyRMOeg0tApvCni8LkoiEahO+z3TNxfXIVGy890YtWVDvJAl662dVJSJXvMw==
+  dependencies:
+    dequal "^2.0.3"
+
+"@restart/hooks@^0.4.7":
+  version "0.4.13"
+  resolved "https://registry.npmjs.org/@restart/hooks/-/hooks-0.4.13.tgz#e042accfb8748dab06e60c4fe71d43e86457c411"
+  integrity sha512-bwgbkNZEvQWfKIQaUM+QCvs8DAq6MDZ7QPS4ajFOmJY3jP52wJx/vHS6iKNKTaFjjRNF8UWVipKZ5xOJEaFIFg==
   dependencies:
     dequal "^2.0.3"
 
@@ -3145,16 +3152,16 @@
     "@types/react" "*"
 
 "@types/react-transition-group@^4.4.1":
-  version "4.4.9"
-  resolved "https://registry.npmjs.org/@types/react-transition-group/-/react-transition-group-4.4.9.tgz#12a1a1b5b8791067198149867b0823fbace31579"
-  integrity sha512-ZVNmWumUIh5NhH8aMD9CR2hdW0fNuYInlocZHaZ+dgk/1K49j1w/HoAuK1ki+pgscQrOFRTlXeoURtuzEkV3dg==
+  version "4.4.10"
+  resolved "https://registry.npmjs.org/@types/react-transition-group/-/react-transition-group-4.4.10.tgz#6ee71127bdab1f18f11ad8fb3322c6da27c327ac"
+  integrity sha512-hT/+s0VQs2ojCX823m60m5f0sL5idt9SO6Tj6Dg+rdphGPIeJbJ6CxvBYkgkGKrYeDjvIpKTR38UzmtHJOGW3Q==
   dependencies:
     "@types/react" "*"
 
 "@types/react@*", "@types/react@>=16.14.8", "@types/react@>=16.9.11":
-  version "18.2.41"
-  resolved "https://registry.npmjs.org/@types/react/-/react-18.2.41.tgz#9eea044246bdb10510df89ef7f8422a8b6ad8fb9"
-  integrity sha512-CwOGr/PiLiNBxEBqpJ7fO3kocP/2SSuC9fpH5K7tusrg4xPSRT/193rzolYwQnTN02We/ATXKnb6GqA5w4fRxw==
+  version "18.2.42"
+  resolved "https://registry.npmjs.org/@types/react/-/react-18.2.42.tgz#6f6b11a904f6d96dda3c2920328a97011a00aba7"
+  integrity sha512-c1zEr96MjakLYus/wPnuWDo1/zErfdU9rNsIGmE+NV71nx88FG9Ttgo5dqorXTu/LImX2f63WBP986gJkMPNbA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -5376,9 +5383,9 @@ csstype@^2.5.7:
   integrity sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==
 
 csstype@^3.0.2, csstype@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.npmjs.org/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
-  integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
+  version "3.1.3"
+  resolved "https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz#d80ff294d114fb0e6ac500fbf85b60137d7eff81"
+  integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
 
 cubic-spline@^3.0.3:
   version "3.0.3"
@@ -7351,7 +7358,7 @@ get-caller-file@^2.0.5:
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
-get-intrinsic@^1.0.2, get-intrinsic@^1.1.1, get-intrinsic@^1.2.2:
+get-intrinsic@^1.0.2, get-intrinsic@^1.1.1, get-intrinsic@^1.1.3, get-intrinsic@^1.2.1, get-intrinsic@^1.2.2:
   version "1.2.2"
   resolved "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.2.tgz#281b7622971123e1ef4b3c90fd7539306da93f3b"
   integrity sha512-0gSo4ml/0j98Y3lngkFEot/zhiCeWsbYIlZ+uZOVgzLyLaUw7wxUL+nCTP0XJvJg1AXulJRI3UJi8GsbDuxdGA==
@@ -7361,7 +7368,7 @@ get-intrinsic@^1.0.2, get-intrinsic@^1.1.1, get-intrinsic@^1.2.2:
     has-symbols "^1.0.3"
     hasown "^2.0.0"
 
-get-intrinsic@^1.1.3, get-intrinsic@^1.2.0, get-intrinsic@^1.2.1:
+get-intrinsic@^1.2.0:
   version "1.2.1"
   resolved "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.1.tgz#d295644fed4505fc9cde952c37ee12b477a83d82"
   integrity sha512-2DcsyfABl+gVHEfCOaTrWgyt+tb6MSEGmKq+kI5HwLbIYgjgmMcV8KQ41uaKz1xxUcn9tJtgFbQUEVcEbd0FYw==
@@ -10589,7 +10596,6 @@ polygon-clipping@^0.15.3:
 
 "polylabel@github:mapbox/polylabel", polylabel@mapbox/polylabel:
   version "1.1.0"
-  uid "07c112091b4c9ffeb412af33c575133168893b4a"
   resolved "https://codeload.github.com/mapbox/polylabel/tar.gz/07c112091b4c9ffeb412af33c575133168893b4a"
   dependencies:
     tinyqueue "^2.0.3"
@@ -11850,94 +11856,7 @@ react-chartkick@^0.4.1:
   dependencies:
     chartkick "^3.2.0"
 
-react-cismap@^1.14.5, react-cismap@^1.17.5:
-  version "1.17.5"
-  resolved "https://registry.npmjs.org/react-cismap/-/react-cismap-1.17.5.tgz#1e5a59cae268c214db2647871d6de1ef35823c85"
-  integrity sha512-EYWOY26nJz4RA7agSfpbm8D8TaxcQvVxL3AbrS4RI7jAEvqSagUpiUqnj9jGJb0vtmwTk6qJm7QNXhvBAblOmg==
-  dependencies:
-    "@fortawesome/fontawesome-free" "^5.12.0"
-    "@fortawesome/fontawesome-svg-core" "^1.2.26"
-    "@fortawesome/free-brands-svg-icons" "^5.12.0"
-    "@fortawesome/free-regular-svg-icons" "^5.14.0"
-    "@fortawesome/free-solid-svg-icons" "^5.12.0"
-    "@fortawesome/react-fontawesome" "^0.1.8"
-    "@mapbox/polylabel" "^1.0.2"
-    "@nicksrandall/console-feed" "^3.5.0"
-    "@rehooks/component-size" "^1.0.3"
-    "@turf/area" "^6.3.0"
-    "@turf/bbox" "^6.0.1"
-    "@turf/bbox-polygon" "^6.0.1"
-    "@turf/boolean-intersects" "^6.3.0"
-    "@turf/center" "^6.5.0"
-    "@turf/envelope" "^6.3.0"
-    "@turf/helpers" "^6.1.4"
-    "@turf/inside" "^5.0.0"
-    "@turf/intersect" "^6.1.3"
-    "@turf/invariant" "^6.3.0"
-    babel-polyfill "^6.26.0"
-    bootstrap "4.6.0"
-    broadcast-channel "^5.1.0"
-    chart.js "^2.9.4"
-    chroma-js "^2.1.1"
-    color "^3.1.3"
-    color-hash "^2.0.1"
-    create-svg-pie "^1.0.0"
-    d3v4 "^4.2.2"
-    dexie "^3.0.3"
-    easing "^1.2.1"
-    fflate "^0.6.10"
-    file-type "^16.4.0"
-    flatbush "^3.3.0"
-    geotiff "0.4.1"
-    history "^5.0.0"
-    html-react-parser "^1.2.4"
-    immer "^8.0.1"
-    kdbush "^3.0.0"
-    leaflet "^1.6.0"
-    leaflet-easybutton "^2.4.0"
-    leaflet-editable "^1.2.0"
-    leaflet-extra-markers "^1.2.1"
-    leaflet-fullscreen-custom-container-fork "^1.0.7"
-    leaflet-snap "^0.0.4"
-    leaflet.locatecontrol "0.76.1"
-    leaflet.markercluster "^1.4.0"
-    leaflet.nontiledlayer "^1.0.9"
-    leaflet.path.drag "^0.0.6"
-    localforage "^1.9.0"
-    lodash "^4.17.20"
-    maplibre-gl "1.15.2"
-    md5 "^2.3.0"
-    object-assign "^4.1.1"
-    polylabel mapbox/polylabel
-    proj4 "^2.5.0"
-    proj4leaflet "^1.0.2"
-    query-string "^7.0.1"
-    react "^16.11"
-    react-bootstrap "^1.5.0"
-    react-bootstrap-typeahead "3.4.7"
-    react-chartkick "^0.4.1"
-    react-dom "^16.11"
-    react-fa "^5.0.0"
-    react-image-lightbox "^5.1.1"
-    react-leaflet "^1.6.4"
-    react-leaflet-control "1.4.1"
-    react-leaflet-markercluster "^1.1.8"
-    react-loading "^2.0.3"
-    react-loading-overlay "^1.0.1"
-    react-markdown "^5.0.3"
-    react-projection-mapping "^1.98.1"
-    react-scroll "^1.8.1"
-    react-svg-inline "^2.1.1"
-    reproject "^1.2.5"
-    slugify "^1.4.6"
-    styled-components "^6.1.1"
-    svg-create-element "^1.0.0"
-    terraformer-wkt-parser "^1.2.1"
-    url-search-params-polyfill "^5.0.0"
-    use-immer "^0.4.2"
-    watchjs "^0.0.0"
-
-react-cismap@^1.17.7:
+react-cismap@^1.14.5, react-cismap@^1.17.7, react-cismap@^1.17.8:
   version "1.17.7"
   resolved "https://registry.npmjs.org/react-cismap/-/react-cismap-1.17.7.tgz#53d5df0c02b09bf5874366a96c3685f9107a2084"
   integrity sha512-N+6uoLtI4ajzlhUX5SXm+jgRHsiMSosN/rLvYkdWOw6g2+CFlT9ig21QMoqbCVs57+EpdS/7vYHW0XP69Ju8SQ==

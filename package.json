@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@cismet-collab/flooding-wupp-texts": "^0.0.1",
-    "@cismet-dev/react-cismap-rainhazardmaps": "^1.14.2",
+    "@cismet-dev/react-cismap-rainhazardmaps": "^1.14.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -12,7 +12,7 @@
     "react": "^16.11",
     "react-bootstrap": "^1.5.2",
     "react-bootstrap-typeahead": "^5.1.4",
-    "react-cismap": "^1.17.7",
+    "react-cismap": "^1.17.8",
     "react-dom": "^16.11",
     "react-scripts": "5.0.0",
     "web-vitals": "^0.2.4",
