@@ -8,10 +8,13 @@ const config = {
   animationSwitch: false,
   toggleSwitch: true,
   toggleTitle: "HW-Schutz",
+  toggleEnabledText: "an",
+  toggleDisabledText: "aus",
   possibleModes: [starkregenConstants.SHOW_HEIGHTS],
-  upperleftX: 780160.203, //take a depth3857.tif and run gdalinfo on it get the pixelsize and upperleftcorner info from there
-  upperleftY: 6678245.042,
-  pixelsize: 1.595781324768881,
+  upperleftX: 772081.984, //take a depth3857.tif and run gdalinfo on it get the pixelsize and upperleftcorner info from there
+  upperleftY: 6675353.742,
+  columnOrder: ["S", "T", "M"],
+  pixelsize: 1.596954261858748,
   minAnimationZoom: 17,
   minFeatureInfoZoom: 19,
   rasterfariURL: "https://rain-rasterfari-wuppertal.cismet.de",
@@ -20,72 +23,70 @@ const config = {
 
   simulations: [
     {
-      // not used because the gefaehrdungsgebiete are a layer that need to come on top
-      getLayer: (state) => {
-        console.log("xxx getlayer", state);
+      getFeatureInfoLayer: (state) => {
+        const hochwasserschutz = state.customInfoBoxToggleState;
+        if (hochwasserschutz) {
+          return "wupp:HQ10-50_3857";
+        } else {
+          return "wupp:HQ10-50_3857,wupp:HQ10-50_noHWS_3857";
+        }
+      },
+      depthLayer: "wupp:HQ10-50_3857",
+      depthStyle: "wupp:depth",
+      gefaehrdungsLayer: "wupp:HQ10-50_noHWS_3857",
+      name: "häufig",
+      title: "häufiges Hochwasser (HQhäufig)",
+      icon: "bar-chart",
+      subtitle:
+        "Simulierte Wassertiefen für Überschwemmungsgebiete beim häufigen, ca. 20-jährlichen Hochwasser mit / ohne Berücksichtigung tech. Hochwasserschutzeinrichtungen (HW-Schutz)",
+    },
 
+    {
+      getFeatureInfoLayer: (state) => {
         const hochwasserschutz = state.customInfoBoxToggleState;
         if (hochwasserschutz) {
-          return "wupp:HQ10-50";
+          return "wupp:HQ100_3857";
         } else {
-          return "wupp:gefaehrdung_HQ10-50";
+          return "wupp:HQ100_3857,wupp:HQ100_noHWS_3857";
         }
       },
-      depthLayer: "wupp:HQ10-50",
+      depthLayer: "wupp:HQ100_3857",
+      gefaehrdungsLayer: "wupp:HQ100_noHWS_3857",
       depthStyle: "wupp:depth",
-      gefaehrdungsLayer: "wupp:gefaehrdung_HQ10-50",
-      name: "HQ10-50",
-      title: "10- bis 50-jähriges Hochwasser",
+      name: "100-jährlich",
+      title: "100-jährliches Hochwasser (HQ100)",
       icon: "bar-chart",
       subtitle:
-        "Simulierte Wassertiefen für Überschwemmungsgebiete beim 10- bis 50-jährigen Hochwasser (hohe Wahrscheinlichkeit)",
+        "Simulierte Wassertiefen für Überschwemmungsgebiete beim 100-jährlichen Hochwasser mit / ohne Berücksichtigung tech. Hochwasserschutzeinrichtungen (HW-Schutz)",
     },
     {
-      getLayer: (state) => {
-        const hochwasserschutz = state.customInfoBoxToggleState;
-        if (hochwasserschutz) {
-          return "wupp:HQ10-50";
-        } else {
-          return "wupp:gefaehrdung_HQ100";
-        }
-      },
-      depthLayer: "wupp:HQ100",
-      gefaehrdungsLayer: "wupp:gefaehrdung_HQ100",
+      getLayer: (state) => "wupp:HQ500_3857",
+      depthLayer: "wupp:HQ500_3857",
       depthStyle: "wupp:depth",
-      name: "HQ100",
-      title: "100-jähriges Hochwasser",
+      name: "extrem",
+      title: "Extremhochwasser (HQextrem)",
       icon: "bar-chart",
       subtitle:
-        "Simulierte Wassertiefen für Überschwemmungsgebiete beim 100-jährigen Hochwasser (mittlere Wahrscheinlichkeit)",
-    },
-    {
-      getLayer: (state) => "wupp:HQ500",
-      depthLayer: "wupp:HQ500",
-      depthStyle: "wupp:depth",
-      name: "HQ500",
-      title: "500-jähriges Hochwasser",
-      icon: "bar-chart",
-      subtitle:
-        "Simulierte Wassertiefen für Überschwemmungsgebiete beim 500-jährigen Hochwasser (niedrige Wahrscheinlichkeit)",
+        "Simulierte Wassertiefen für Überschwemmungsgebiete bei einem Extremhochwasser mit Versagen der tech. Hochwasserschutzeinrichtungen (HW-Schutz)",
     },
   ],
   backgrounds: [
     {
       layerkey: "hillshade|bplan_abkg@30|rvrGrundriss@20",
       // src: "/starkregen/images/rain-hazard-map-bg/topo.png",
-      src: "/hochwasser//images/rain-hazard-map-bg/topo.png",
+      src: "/images/rain-hazard-map-bg/topo.png",
       title: "Top. Karte",
     },
     {
       layerkey: "rvrGrundriss@100|trueOrtho2022@75|rvrSchriftNT@100",
       // src: "/starkregen/images/rain-hazard-map-bg/ortho.png",
-      src: "/hochwasser//images/rain-hazard-map-bg/ortho.png",
+      src: "/images/rain-hazard-map-bg/ortho.png",
       title: "Luftbildkarte",
     },
     {
       layerkey: "wupp-plan-live@40",
       // src: "/starkregen/images/rain-hazard-map-bg/citymap.png",
-      src: "/hochwasser/images/rain-hazard-map-bg/citymap.png",
+      src: "/images/rain-hazard-map-bg/citymap.png",
       title: "Stadtplan",
     },
   ],
@@ -109,7 +110,6 @@ const initialState = {
   backgroundLayer: undefined,
   selectedBackground: 0,
   animationEnabled: false,
-  additionalLayers: ["wupp:HQ500"],
 };
 
 export default { config, overridingBaseLayerConf, initialState };
