@@ -1589,10 +1589,10 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.4"
 
-"@cismet-dev/react-cismap-rainhazardmaps@^1.14.4":
-  version "1.14.4"
-  resolved "https://npm.pkg.github.com/download/@cismet-dev/react-cismap-rainhazardmaps/1.14.4/066b2f61fe0a58c2662b263d8b8dc190424d7c12#066b2f61fe0a58c2662b263d8b8dc190424d7c12"
-  integrity sha512-Pf9HFM3am94KhaG9e5VzTox0kg9vXBhJiNoape1RKBMHUJA1k4H7m54TZpY4EoYuIw/TklnLG4wjlSk84EO9jA==
+"@cismet-dev/react-cismap-rainhazardmaps@^1.14.5":
+  version "1.14.5"
+  resolved "https://npm.pkg.github.com/download/@cismet-dev/react-cismap-rainhazardmaps/1.14.5/3d3c9cb45af2806fe5b3f89d4e485c4ecfde8245#3d3c9cb45af2806fe5b3f89d4e485c4ecfde8245"
+  integrity sha512-naMcof6A5J399lT0rlBKl1VhP/LdXV5IK52izs41TYu7p7l34Z7ZZIiVKZwvp56zfMcOZoS6ziNQf7+5Blgcag==
   dependencies:
     "@testing-library/jest-dom" "^5.14.1"
     "@testing-library/react" "^12.0.0"
@@ -2413,9 +2413,9 @@
     dequal "^2.0.3"
 
 "@restart/hooks@^0.4.7":
-  version "0.4.13"
-  resolved "https://registry.npmjs.org/@restart/hooks/-/hooks-0.4.13.tgz#e042accfb8748dab06e60c4fe71d43e86457c411"
-  integrity sha512-bwgbkNZEvQWfKIQaUM+QCvs8DAq6MDZ7QPS4ajFOmJY3jP52wJx/vHS6iKNKTaFjjRNF8UWVipKZ5xOJEaFIFg==
+  version "0.4.14"
+  resolved "https://registry.npmjs.org/@restart/hooks/-/hooks-0.4.14.tgz#df1fd390e9982426fdaa033030390940bad9acfe"
+  integrity sha512-jlb2nPhXY3b3wn6ffD86z+lvwQ494kptEmshW0ghELyHXrLPkP2x8GKgr5WtgX4U3aQkOl/tM+r+DEQajSsxKw==
   dependencies:
     dequal "^2.0.3"
 
@@ -10594,7 +10594,7 @@ polygon-clipping@^0.15.3:
   dependencies:
     splaytree "^3.1.0"
 
-"polylabel@github:mapbox/polylabel", polylabel@mapbox/polylabel:
+polylabel@mapbox/polylabel:
   version "1.1.0"
   resolved "https://codeload.github.com/mapbox/polylabel/tar.gz/07c112091b4c9ffeb412af33c575133168893b4a"
   dependencies:
