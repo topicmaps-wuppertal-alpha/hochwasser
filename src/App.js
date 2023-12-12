@@ -17,6 +17,7 @@ import { getApplicationVersion } from "./version";
 import NotesDisplay from "./NotesDisplay";
 import { EnviroMetricMapContext } from "@cismet-dev/react-cismap-rainhazardmaps/EnviroMetricMapContextProvider";
 import StyledWMSTileLayer from "react-cismap/StyledWMSTileLayer";
+import { getCollabedHelpComponentConfig } from "@cismet-collab/flooding-wupp-texts";
 
 function App() {
   const reactCismapRHMVersion = cismapRHMVersion;
@@ -91,17 +92,16 @@ function App() {
         infoBoxPixelWidth={370}
       >
         <EnviroMetricMap
-          appMenu={<div />}
-          // appMenu={
-          //   <GenericModalApplicationMenu
-          //     {...getCollabedHelpComponentConfig({
-          //       version,
-          //       reactCismapRHMVersion,
+          appMenu={
+            <GenericModalApplicationMenu
+              {...getCollabedHelpComponentConfig({
+                version,
+                reactCismapRHMVersion,
 
-          //       email,
-          //     })}
-          //   />
-          // }
+                email,
+              })}
+            />
+          }
           applicationMenuTooltipString="Anleitung | Hintergrund"
           initialState={config.initialState}
           emailaddress="hochwasser@stadt.wuppertal.de"
