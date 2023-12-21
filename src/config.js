@@ -97,6 +97,17 @@ const config = {
     { title: "75 cm", lt: 0.5, bg: "#E9B279" },
     { title: "100 cm", lt: 1.0, bg: "#DD8C7B" },
   ],
+  getRoundedDepthValueStringForValue: (featureValue) => {
+    if (featureValue > 1.5) {
+      return `> 150 cm`;
+    } else if (featureValue < 0) {
+      return `keine Daten`;
+    } else if (featureValue < 0.1) {
+      return `< 10 cm`;
+    } else {
+      return `ca. ${Math.round(featureValue * 10.0) * 10.0} cm`;
+    }
+  },
 };
 
 const initialState = {
