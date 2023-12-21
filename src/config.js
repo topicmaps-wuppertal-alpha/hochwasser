@@ -13,9 +13,9 @@ const config = {
   toggleDisabledText: "aus",
   possibleModes: [starkregenConstants.SHOW_HEIGHTS],
   upperleftX: 772081.984, //take a depth3857.tif and run gdalinfo on it get the pixelsize and upperleftcorner info from there
-  upperleftY: 6675353.742,
+  upperleftY: 6691265.701,
   columnOrder: ["S", "T", "M"],
-  pixelsize: 1.596954261858748,
+  pixelsize: 1.596954261858703,
   minAnimationZoom: 17,
   minFeatureInfoZoom: 19,
   rasterfariURL: "https://rain-rasterfari-wuppertal.cismet.de",
