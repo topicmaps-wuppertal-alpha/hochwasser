@@ -2,6 +2,7 @@ import { notification } from "antd";
 import { useContext, useEffect, useRef, useState } from "react";
 import ProjGeoJson from "react-cismap/ProjGeoJson";
 import { TopicMapContext } from "react-cismap/contexts/TopicMapContextProvider";
+import verwallungBuchenhofen from "./assets/verwallung_buchenhofen.jpg";
 
 export default function NotesDisplay() {
   const { routedMapRef } = useContext(TopicMapContext);
@@ -21,7 +22,7 @@ export default function NotesDisplay() {
             console.log("e.target.feature.properties", e);
 
             notification.info({
-              style: { width: 430, marginTop: 30, marginRight: -13 },
+              style: { width: 440, marginTop: 30, marginRight: -13 },
               duration: 15,
               message: (
                 <span>
@@ -70,29 +71,23 @@ const hinweisData = [
       },
     },
     properties: {
-      titel: "Verwallung Klärwerk Buchenhofen",
+      titel: "Klärwerk Buchenhofen",
       kategorie: "Verwallung",
       beschreibung: (
         <div>
           <div>
-            ie Abwasserreinigung am Standort Buchenhofen blickt auf eine über
-            100-jährige Geschichte zurück. Schon seit dem Jahre 1906 wurde hier
-            in der Kläranlage Elberfeld-Barmen das anfallende Abwasser der Stadt
-            Wuppertal gereinigt. Nach unserer Verbandsgründung im Jahre 1930
-            übernahmen wir die Abwasserreinigung. Es folgte der Ausbau der zur
-            mechanischen Reinigung dienenden Absetzbecken und die Errichtung von
-            zwei Erdfaulbehältern in den Jahren 1930 - 1939.
+            Die Verwallung Buchenhofen ist ein insgesamt etwa 342 m langer
+            zweigeteilter Deich, der im Zeitraum 1970 bis 1973 durch den
+            Wupperverband errichtet wurde, um das Klärwerk Buchenhofen vor einem
+            Hochwasser der Wupper zu schützen. Die Verwallung ist ein "nicht
+            ausgebauter Deich", es fehlen also einige nach heutigem Stand der
+            Technik erforderliche konstruktive Elemente zum Schutz des Deiches
+            vor Beschädigung durch Hochwasser. Der Deich erhebt sich an seinen
+            höchsten Stellen etwa 2,5 bis 3 m über den normalen, regulierten
+            Wasserstand der Wupper.
           </div>
-          <img
-            width="100%"
-            src="https://www.wupperverband.de/internet/mediendb.nsf/gfx/med_HVAL-CFPEGJ_3A60CE/$file/Kl%C3%A4ranlage_Buchenhofen_2022_Luftbild_Peter_Sondermann_0006_2089-1175x10-85_640_85.jpg"
-          />
-          <div>
-            Wir behandeln am Kläranlagenstandort Buchenhofen das zufließende
-            Abwasser aus dem Stadtgbiet Wuppertal, ausgenommen Rondsdorf und
-            Cronenberg, sowie das an der Stadtgrenze zu Langerfeld auf Schwelmer
-            Stadtgebiet anfallende Abwasser.
-          </div>
+          <img width="100%" src={verwallungBuchenhofen} />
+          <div>(c) Stadt Wuppertal, Befliegung vom 16.03.2022</div>
         </div>
       ),
       hwschutz_t: "d",
