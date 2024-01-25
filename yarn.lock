@@ -1212,10 +1212,10 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cismet-collab/flooding-wupp-texts@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/@cismet-collab/flooding-wupp-texts/-/flooding-wupp-texts-0.1.0.tgz#1df01683db9d59a85b7f3f7ad3a7a71f9387a607"
-  integrity sha512-e2qXuwF6drAiSNAbsnA0cDfU2fbHrqg303OIQlVuVgD+OkWCH08HfYlcZ4/g6mlJruxKJ0wofElBJ9SU5tXkCQ==
+"@cismet-collab/flooding-wupp-texts@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.npmjs.org/@cismet-collab/flooding-wupp-texts/-/flooding-wupp-texts-0.3.0.tgz#60c159e48a4b3bc26422fd4f56dcd6bdb7ed8b12"
+  integrity sha512-gcWX4YVKgmEML8Rqigu+c7ehByI26xZAZZ9JugvMoSsp/d0RqlKb2NXmjW67Led5o+7PyK+5AjR4EB3Ovk1EOQ==
   dependencies:
     "@cismet-collab/rainhazardmaps-base-texts" "^2.0.0"
     "@testing-library/jest-dom" "^5.16.5"
@@ -10275,7 +10275,7 @@ polygon-clipping@^0.15.3:
   dependencies:
     splaytree "^3.1.0"
 
-"polylabel@github:mapbox/polylabel":
+polylabel@mapbox/polylabel:
   version "1.1.0"
   resolved "https://codeload.github.com/mapbox/polylabel/tar.gz/07c112091b4c9ffeb412af33c575133168893b4a"
   dependencies:

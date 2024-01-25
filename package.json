@@ -3,7 +3,7 @@
   "version": "0.6.1",
   "private": true,
   "dependencies": {
-    "@cismet-collab/flooding-wupp-texts": "^0.1.0",
+    "@cismet-collab/flooding-wupp-texts": "^0.3.0",
     "@cismet-dev/react-cismap-rainhazardmaps": "^2.0.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
