@@ -1212,10 +1212,10 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cismet-collab/flooding-wupp-texts@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/@cismet-collab/flooding-wupp-texts/-/flooding-wupp-texts-0.3.0.tgz#60c159e48a4b3bc26422fd4f56dcd6bdb7ed8b12"
-  integrity sha512-gcWX4YVKgmEML8Rqigu+c7ehByI26xZAZZ9JugvMoSsp/d0RqlKb2NXmjW67Led5o+7PyK+5AjR4EB3Ovk1EOQ==
+"@cismet-collab/flooding-wupp-texts@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.npmjs.org/@cismet-collab/flooding-wupp-texts/-/flooding-wupp-texts-0.5.0.tgz#afddee5c21625e80dea99b20c1a008fe5db58786"
+  integrity sha512-XHI71TxMSbJOx1VuBakFx6Bsvx3xGsn5Fv2DtafvDzZbmts1au1KX5hxDReeUfp0uLKQA4Rs/JnItttAgUlhXw==
   dependencies:
     "@cismet-collab/rainhazardmaps-base-texts" "^2.0.0"
     "@testing-library/jest-dom" "^5.16.5"
