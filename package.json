@@ -1,6 +1,6 @@
 {
   "name": "floodingmap-wuppertal",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "private": true,
   "dependencies": {
     "@cismet-collab/flooding-wupp-texts": "^0.5.0",
