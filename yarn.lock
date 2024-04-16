@@ -10275,9 +10275,9 @@ polygon-clipping@^0.15.3:
   dependencies:
     splaytree "^3.1.0"
 
-polylabel@mapbox/polylabel:
+"polylabel@github:mapbox/polylabel":
   version "1.1.0"
-  resolved "https://codeload.github.com/mapbox/polylabel/tar.gz/07c112091b4c9ffeb412af33c575133168893b4a"
+  resolved "https://codeload.github.com/mapbox/polylabel/tar.gz/66b343f0bfe481aaf5fef007348788e872f4d6f5"
   dependencies:
     tinyqueue "^2.0.3"
 
@@ -11493,10 +11493,33 @@ react-bootstrap-typeahead@^5.1.4:
     scroll-into-view-if-needed "^2.2.20"
     warning "^4.0.1"
 
-react-bootstrap@^1.5.0, react-bootstrap@^1.5.2:
+react-bootstrap@^1.5.2:
   version "1.6.7"
   resolved "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-1.6.7.tgz#7afea926cada8175d67df07b893dbad2998ae463"
   integrity sha512-IzCYXuLSKDEjGFglbFWk0/iHmdhdcJzTmtS6lXxc0kaNFx2PFgrQf5jKnx5sarF2tiXh9Tgx3pSt3pdK7YwkMA==
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@restart/context" "^2.1.4"
+    "@restart/hooks" "^0.4.7"
+    "@types/invariant" "^2.2.33"
+    "@types/prop-types" "^15.7.3"
+    "@types/react" ">=16.14.8"
+    "@types/react-transition-group" "^4.4.1"
+    "@types/warning" "^3.0.0"
+    classnames "^2.3.1"
+    dom-helpers "^5.2.1"
+    invariant "^2.2.4"
+    prop-types "^15.7.2"
+    prop-types-extra "^1.1.0"
+    react-overlays "^5.1.2"
+    react-transition-group "^4.4.1"
+    uncontrollable "^7.2.1"
+    warning "^4.0.3"
+
+react-bootstrap@^1.6.8:
+  version "1.6.8"
+  resolved "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-1.6.8.tgz#e9380d81cdb92c433f61b37a9120b8edd49912a1"
+  integrity sha512-yD6uN78XlFOkETQp6GRuVe0s5509x3XYx8PfPbirwFTYCj5/RfmSs9YZGCwkUrhZNFzj7tZPdpb+3k50mK1E4g==
   dependencies:
     "@babel/runtime" "^7.14.0"
     "@restart/context" "^2.1.4"
@@ -11523,10 +11546,10 @@ react-chartkick@^0.4.1:
   dependencies:
     chartkick "^3.2.0"
 
-react-cismap@^1.18.2:
-  version "1.18.2"
-  resolved "https://registry.npmjs.org/react-cismap/-/react-cismap-1.18.2.tgz#c4ee64399facd0e17ed276444a2ef49ba0c28988"
-  integrity sha512-MCM1hfUQwMxmszuo+h4SNM0qmL4+ZYUvpovV5zpRuOiaIP9y1h8IXTdaaVqhkrBsv24Mq6QJqi8EGDWpRbhRRg==
+react-cismap@1.19.6:
+  version "1.19.6"
+  resolved "https://registry.npmjs.org/react-cismap/-/react-cismap-1.19.6.tgz#0c639045adbbcb957ab097ec8810617040abbcfa"
+  integrity sha512-spnsVE3Y2XAa3bow2AcUqNEckjhqYEGANsMHLsjyc+DdA0My4Q1A2z9IMz0wwqtHJaUNY01zF+03UBvw625r5w==
   dependencies:
     "@fortawesome/fontawesome-free" "^5.12.0"
     "@fortawesome/fontawesome-svg-core" "^1.2.26"
@@ -11586,7 +11609,7 @@ react-cismap@^1.18.2:
     proj4leaflet "^1.0.2"
     query-string "^7.0.1"
     react "^16.11"
-    react-bootstrap "^1.5.0"
+    react-bootstrap "^1.6.8"
     react-bootstrap-typeahead "3.4.7"
     react-chartkick "^0.4.1"
     react-dom "^16.11"
