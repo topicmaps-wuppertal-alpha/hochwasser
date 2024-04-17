@@ -1212,12 +1212,12 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cismet-collab/flooding-wupp-texts@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.npmjs.org/@cismet-collab/flooding-wupp-texts/-/flooding-wupp-texts-0.5.0.tgz#afddee5c21625e80dea99b20c1a008fe5db58786"
-  integrity sha512-XHI71TxMSbJOx1VuBakFx6Bsvx3xGsn5Fv2DtafvDzZbmts1au1KX5hxDReeUfp0uLKQA4Rs/JnItttAgUlhXw==
+"@cismet-collab/flooding-wupp-texts@^0.9.2":
+  version "0.9.2"
+  resolved "https://registry.npmjs.org/@cismet-collab/flooding-wupp-texts/-/flooding-wupp-texts-0.9.2.tgz#3b2fb21e0732880fa52713076b197ae80c16c852"
+  integrity sha512-/o12i1sy/wvNgA+3TnsPysZs4Kj0u6n44bl/MEUpo2YA7ybtOkYn/XTDexY54pP9f0JtRaOU3hna9L3nMXHQqg==
   dependencies:
-    "@cismet-collab/rainhazardmaps-base-texts" "^2.0.0"
+    "@cismet-collab/rainhazardmaps-base-texts" "^2.1.0"
     "@testing-library/jest-dom" "^5.16.5"
     "@testing-library/react" "^13.4.0"
     "@testing-library/user-event" "^13.5.0"
@@ -1226,10 +1226,10 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.4"
 
-"@cismet-collab/rainhazardmaps-base-texts@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/@cismet-collab/rainhazardmaps-base-texts/-/rainhazardmaps-base-texts-2.0.0.tgz#3ca4826e692186ace6796301a90920f6d5e38fa1"
-  integrity sha512-AD3vPxtY2bLcUXtGo3iewy5UfVSWoPDSOWsOM+/gcNknc0FBXZ8X1nnP/aKsX6gnCrlD1AlCrPbk/0qL64Rtkw==
+"@cismet-collab/rainhazardmaps-base-texts@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/@cismet-collab/rainhazardmaps-base-texts/-/rainhazardmaps-base-texts-2.1.0.tgz#26a965f659ab7f6d32a90e37c40bf5eb382ae630"
+  integrity sha512-ClWfTNb8DpCkaRp2o48Gx3qVdyxb4fofLO86QnWY91fB7MfFv+E+G0IxoFon+gcLY1AFy8AU7tuET+dapIDiwg==
   dependencies:
     "@testing-library/jest-dom" "^5.16.5"
     "@testing-library/react" "^13.4.0"
@@ -10275,7 +10275,7 @@ polygon-clipping@^0.15.3:
   dependencies:
     splaytree "^3.1.0"
 
-"polylabel@github:mapbox/polylabel":
+polylabel@mapbox/polylabel:
   version "1.1.0"
   resolved "https://codeload.github.com/mapbox/polylabel/tar.gz/66b343f0bfe481aaf5fef007348788e872f4d6f5"
   dependencies:
