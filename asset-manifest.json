@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "./static/css/main.3b3b64ee.css",
-    "main.js": "./static/js/main.8dac5c6d.js",
+    "main.js": "./static/js/main.26d87b5f.js",
     "static/js/320.7db55aed.chunk.js": "./static/js/320.7db55aed.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "./static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/markers_default@2x.png": "./static/media/markers_default@2x.9593b3c72f31a3f4b403.png",
-    "static/media/customerLogo.png": "./static/media/customerLogo.ad12a5f6199d1afa5f30.png",
+    "static/media/Logo_DigiTalZwilling.png": "./static/media/Logo_DigiTalZwilling.adb8e89fbaa01801230c.png",
     "static/media/Signet_AIS_RZ.png": "./static/media/Signet_AIS_RZ.4f7add7d825ac1166c5a.png",
     "static/media/fontawesome-webfont.eot": "./static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "./static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -13,19 +13,18 @@
     "static/media/markers_default.png": "./static/media/markers_default.c832adf43b69321540d3.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "./static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "./static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/cismetSignet2k.png": "./static/media/cismetSignet2k.fbe76a931016df2e69fb.png",
-    "static/media/pecher.png": "./static/media/pecher.d24e7eb82e7c9e161a31.png",
+    "static/media/BMWSB_Logo.png": "./static/media/BMWSB_Logo.eb4870e1c4b69aed2dfe.png",
     "static/media/MeinStandpunktMarkerDoppel.jpg": "./static/media/MeinStandpunktMarkerDoppel.e4a852718c8d263c78f1.jpg",
     "static/media/MeinStandpunktMarker.jpg": "./static/media/MeinStandpunktMarker.aec65d22b3fd2d2f5718.jpg",
     "static/media/spinner-solid.svg": "./static/media/spinner-solid.bc3f17b395ea75d350fb.svg",
     "index.html": "./index.html",
     "static/media/location-arrow-solid.svg": "./static/media/location-arrow-solid.0b7c9a27de87a0ec7420.svg",
     "main.3b3b64ee.css.map": "./static/css/main.3b3b64ee.css.map",
-    "main.8dac5c6d.js.map": "./static/js/main.8dac5c6d.js.map",
+    "main.26d87b5f.js.map": "./static/js/main.26d87b5f.js.map",
     "320.7db55aed.chunk.js.map": "./static/js/320.7db55aed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b3b64ee.css",
-    "static/js/main.8dac5c6d.js"
+    "static/js/main.26d87b5f.js"
   ]
 }
